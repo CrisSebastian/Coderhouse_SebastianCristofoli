@@ -1,0 +1,152 @@
+/*variables*/
+/*Styles para header, footer y cosas standar en todas las paginas*/
+.contenedor-general {
+  max-width: 1140px;
+  min-height: 1200px;
+  margin: auto;
+  background-color: #c7c7c7;
+  position: relative; }
+
+.header {
+  background-color: lightgray; }
+  .header h1 {
+    text-align: center; }
+
+.nav {
+  block-size: 100%;
+  align-items: center;
+  justify-content: space-evenly; }
+
+@media (max-width: 576px) {
+  .nav-item {
+    block-size: 100%;
+    font-size: 12px;
+    text-align: center; } }
+
+/*
+.foot {
+    
+}
+*/
+#footer_container {
+  position: absolute;
+  bottom: 0px; }
+
+.container footer {
+  margin-top: 40px;
+  background-color: lightgray; }
+  .container footer .footer__redes {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px; }
+
+/*
+footer .redes {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    
+}*/
+.sociallogo {
+  max-width: 28px;
+  max-height: 28px;
+  padding: 1px; }
+
+.footer__info span {
+  display: block; }
+
+body {
+  background-color: black; }
+
+/*----------------------------------------------------------------------------*/
+/*Styles aplicados al archivo index.html*/
+.mision {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center; }
+
+.juegos h3 {
+  text-align: center; }
+
+.codmw, .csgo {
+  max-width: 200px;
+  max-height: 400px; }
+
+.gameimages {
+  justify-content: center; }
+
+.index_tables {
+  justify-self: center; }
+  .index_tables .table_title {
+    text-align: center; }
+
+/*----------------------------------------------------------------------------*/
+/*Styles aplicados a la pagina contact*/
+.formulario {
+  margin: auto;
+  text-align: center; }
+
+/*----------------------------------------------------------------------------*/
+/*Styles aplicados a la pagina team*/
+.miembros h3 {
+  margin-top: 40px;
+  text-align: center; }
+
+.carousel {
+  text-align: center; }
+
+/* esa propiedad es para las fotos que usaria en el lugar donde ahora esta el carrusel en la pagina team.
+.fotos img {
+    width: 250px;
+    height: 250px;
+}
+*/
+.carousel-item img {
+  width: 960px;
+  height: 480px; }
+
+@media (max-width: 1200px) {
+  .carousel-item img {
+    width: 666.66667px;
+    height: 369.23077px; } }
+
+@media (max-width: 812px) {
+  .carousel-item img {
+    width: 480px;
+    height: 268.15642px; } }
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    width: 365.01901px;
+    height: 166.66667px; } }
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    width: 332.17993px;
+    height: 166.66667px; } }
+
+/*Styles aplicados a la pagina games*/
+.title {
+  text-align: center; }
+
+#games_gameimages {
+  display: flex;
+  padding-top: 40px;
+  text-align: center; }
+
+.games_page .codmw:hover, .games_page .csgo:hover {
+  scale: 110%; }
+
+/*----------------------------------------------------------------------------*/
+/*Styles aplicados a la pagina events*/
+.events_title {
+  text-align: center; }
+
+.main_events {
+  display: grid; }
+  .main_events .events_tables {
+    justify-self: center; }
+    .main_events .events_tables .table_title {
+      text-align: center; }
+
+/*----------------------------------------------------------------------------*/
