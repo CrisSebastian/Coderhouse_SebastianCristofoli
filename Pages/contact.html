@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!--Ahora que estamos utilizando voy a aprovechar para reescribir el codigo de toda la pagina para que quede bien ordenada
+    con buenas practicas y no sea un mejunje de codigo como mis anteriores entregas-->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Contactanos por cualquier duda o razon que tengas">
+        <title>Hiux - Contacto</title>
+
+        <!--Link de bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--Link al style local-->
+        <link rel="stylesheet" href="../Styles/styles.css">
+        
+
+
+    </head>
+
+
+    <body>
+        <div class="contenedor-general">
+            <header>
+                <div class="header container col-sm-12">
+                    <div class="container header__titulo">>
+                        <h1>Hiux Gaming</h1>
+                    </div>
+                    <div class="container header__navlist">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="../Pages/events.html" class="nav-link">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Pages/team.html" class="nav-link">Equipo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Pages/games.html" class="nav-link">Juegos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Pages/contact.html" class="nav-link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="container formulario">
+                    <h2 class="formulario__titulo">Contactenos</h2>
+                    <form action="#" class="contact-form">
+                        <div class="form-group formulario__nombre">
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" id="" placeholder="Ingrese su Nombre">
+                        </div>
+                        <div class="form-group formulario__mail">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="" placeholder="Ingrese su Email">
+                        </div>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary-dropdown-toggle" data-toggle="dropdown">
+                                Motivo
+                            </button>
+                        <div class="form-group formulario__lista">
+                            <select name="motivo" id="">
+                                <option value="jugador">Quiero participar de un torneo</option>
+                                <option value="negocios">Negocios</option>
+                                <option value="prensa">Prensa</option>
+                            </select>
+                        </div>
+                        <div class="form-group formulario__checkbox">
+                            <label class="label" for="newsletter">¿Desea recibir nuestro <em>boletin de noticias semanal?</label>
+                            <input type="checkbox" name="newsletter" id="newsletter">
+                        </div>
+                        <textarea name="detalles" id="" cols="30" rows="10" placeholder="Escribe aqui porque nos contactas"></textarea>
+                        <div class="form-group formulario__buttons">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                        </div>
+                    </form>
+                </div>
+            </main>
+        
+            <div class="container col-sm-12" id="footer_container">
+                <footer class="row">
+                    <section class="footer__info col-sm-6 col-md-6">
+                        <span>Informacion de contacto</span>
+                        <span>Direccion: placeholder</span> 
+                        <span>Email: nan@nan.com</span>
+                        <span><a href="../index.html">Inicio</a></span> 
+                    </section>
+                    
+                    <section class="footer__redes col-sm-6 col-md-6">
+                        <a href="#"><img src="../Images/facebook-logo.png" alt="facebook logo" class="sociallogo"></a>
+                        <a href="#"><img src="../Images/twitter-logo.png" alt="twitter logo" class="sociallogo"></a>
+                        <a href="#"><img src="../Images/instagram-logo.png" alt="instagram logo" class="sociallogo"></a>
+                        <a href="#"><img src="../Images/youtube-logo.png" alt="youtube logo" class="sociallogo"></a>
+                        <a href="#"><img src="../Images/twitch-logo.png" alt="twitch logo" class="sociallogo"></a>
+                    </section>
+                </footer>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
